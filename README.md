@@ -1,4 +1,4 @@
-﻿# ðŸ¦¾ GrokBot 7 Agentes
+# ðŸ¦¾ GrokBot 7 Agentes
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -8,7 +8,7 @@
 
 **ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
-[![GrokBot 7 Agentes](guia/assets/banner.jpg)](https://inematds.github.io/grokbot-7-agentes/guia/)
+[![GrokBot 7 Agentes](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
 ## O que Ã©
 
@@ -16,7 +16,7 @@
 
 ## ðŸ“– Guia de uso
 
-Guia completo (landing + passo a passo + instruÃ§Ãµes para copiar): **https://inematds.github.io/grokbot-7-agentes/guia/**
+Guia completo (landing + passo a passo + instruÃ§Ãµes para copiar): **https://linnoff88-dev.github.io/
 
 ## Os 7 agentes
 
@@ -30,14 +30,14 @@ Guia completo (landing + passo a passo + instruÃ§Ãµes para copiar): **https:
 | 6 | [ðŸ§  CÃ©rebro](agentes/06-cerebro.md) | MemÃ³ria compartilhada da equipe num banco de dados; os outros sÃ³ acrescentam relatÃ³rios, ele organiza | N3 Â· executa | sob pedido |
 | 7 | [ðŸ¤ Chefe de Gabinete](agentes/07-chefe-de-gabinete.md) | Coordena os outros e te entrega o resumo das 8h | N3 Â· executa | todo dia 8h |
 
-Cada ficha segue o formato **Ficha do Agente** do INEMA ([7 princÃ­pios](https://inematds.github.io/7pa/)): missÃ£o, contexto, dados, critÃ©rio de sucesso, autonomia, observaÃ§Ã£o e supervisÃ£o, mais a **instruÃ§Ã£o pronta** para colar, **3 testes** e o **checklist de supervisÃ£o**.
+Cada ficha segue o formato **Ficha do Agente** do ARCKHÉ ([7 princÃ­pios](https://linnoff88-dev.github.io/ missÃ£o, contexto, dados, critÃ©rio de sucesso, autonomia, observaÃ§Ã£o e supervisÃ£o, mais a **instruÃ§Ã£o pronta** para colar, **3 testes** e o **checklist de supervisÃ£o**.
 
 ## O processo, do inÃ­cio ao fim
 
 Quem faz: ðŸ§‘ vocÃª Â· âš™ï¸ o GrokBot sozinho, no horÃ¡rio Â· ðŸ¤– o agente, quando vocÃª pede.
 
 1. ðŸ§‘ **Escolha o trabalho que mais toma a sua semana** (e-mail, contratos, redes, orÃ§amentos ou gastos) e abra a ficha dele em `agentes/`.
-2. ðŸ§‘ **Copie a "InstruÃ§Ã£o pronta"** da ficha (ou pelo botÃ£o copiar no [guia](https://inematds.github.io/grokbot-7-agentes/guia/#agentes)).
+2. ðŸ§‘ **Copie a "InstruÃ§Ã£o pronta"** da ficha (ou pelo botÃ£o copiar no [guia](https://linnoff88-dev.github.io/
 3. ðŸ§‘ **Cole numa conversa nova no GrokBot** e troque o que estÃ¡ entre `[colchetes]` pelos seus dados. O GrokBot confirma em 3 linhas o que entendeu.
 4. ðŸ§‘ **Conecte os aplicativos** que a ficha pede (`"Quero conectar ao [serviÃ§o]. O que vocÃª precisa?"`). Chave de API vai no campo seguro do GrokBot.
 5. ðŸ§‘ **Rode os 3 testes** da ficha (informaÃ§Ã£o faltando, pedido proibido, alarme). Errou? Ajuste a regra e teste de novo.
@@ -53,9 +53,9 @@ Crie um bot separado sÃ³ se ele precisar de **memÃ³ria prÃ³pria**, **permi
 
 ## Avisos
 
-- As fichas sÃ£o um kit do INEMA.
+- As fichas sÃ£o um kit do ARCKHÉ.
 - NÃ£o foram testadas por nÃ³s em todas as contas e planos do GrokBot: **rode os 3 testes no seu antes de confiar**.
-- Ferramentas citadas nas fichas (agendador de posts, carteira, banco de dados) sÃ£o exemplos, nÃ£o exigÃªncia. Nenhuma tem vÃ­nculo com o INEMA.
+- Ferramentas citadas nas fichas (agendador de posts, carteira, banco de dados) sÃ£o exemplos, nÃ£o exigÃªncia. Nenhuma tem vÃ­nculo com o ARCKHÉ.
 - Tudo que mexe com dinheiro ou fala com gente de fora comeÃ§a no nÃ­vel N2: **nada sai sem o seu OK**.
 
 ## Para quem mantÃ©m o kit
@@ -68,7 +68,7 @@ python3 guia/build.py   # gera guia/index.html, guia/en/ e guia/es/
 
 ---
 
-Kit aberto e gratuito Â· [INEMA.CLUB](https://inema.club)
+Kit aberto e gratuito Â· [ARCKHÉ AI](https://ARCKHÉ AI)
 
 ---
 

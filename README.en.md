@@ -2,7 +2,7 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
-[![GrokBot 7 Agents](guia/assets/banner-en.jpg)](https://inematds.github.io/grokbot-7-agentes/guia/en/)
+[![GrokBot 7 Agents](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/
 
 ## What it is
 
@@ -10,7 +10,7 @@ This is a kit with seven ready-made agents for people who use GrokBot, xAI's age
 
 ## 📖 User guide
 
-Full guide (landing + step by step + instructions to copy): **https://inematds.github.io/grokbot-7-agentes/guia/en/**
+Full guide (landing + step by step + instructions to copy): **https://linnoff88-dev.github.io/
 
 ## The 7 agents
 
@@ -24,14 +24,14 @@ Full guide (landing + step by step + instructions to copy): **https://inematds.g
 | 6 | [🧠 Brain](agentes/en/06-cerebro.md) | Team's shared memory in a database; the others only add reports, it organizes | N3 · executes | on request |
 | 7 | [🤝 Chief of Staff](agentes/en/07-chefe-de-gabinete.md) | Coordinates the others and hands you the 8am summary | N3 · executes | every day at 8am |
 
-Each card follows the INEMA **Agent Card** format ([7 principles](https://inematds.github.io/7pa/)): mission, context, data, success criteria, autonomy, observation and oversight, plus the **Ready-made instruction** to paste, **3 tests** and the **oversight checklist**.
+Each card follows the ARCKHÉ **Agent Card** format ([7 principles](https://linnoff88-dev.github.io/ mission, context, data, success criteria, autonomy, observation and oversight, plus the **Ready-made instruction** to paste, **3 tests** and the **oversight checklist**.
 
 ## The process, from start to finish
 
 Who does it: 🧑 you · ⚙️ GrokBot on its own, on schedule · 🤖 the agent, when you ask.
 
 1. 🧑 **Pick the job that eats most of your week** (email, contracts, social, quotes or spending) and open its card in `agentes/en/`.
-2. 🧑 **Copy the "Ready-made instruction"** from the card (or use the copy button in the [guide](https://inematds.github.io/grokbot-7-agentes/guia/en/#agentes)).
+2. 🧑 **Copy the "Ready-made instruction"** from the card (or use the copy button in the [guide](https://linnoff88-dev.github.io/
 3. 🧑 **Paste it into a new GrokBot conversation** and replace what's in `[brackets]` with your own details. GrokBot confirms in 3 lines what it understood.
 4. 🧑 **Connect the apps** the card asks for (`"I want to connect to [service]. What do you need?"`). API keys go in GrokBot's secure field.
 5. 🧑 **Run the card's 3 tests** (missing information, forbidden request, alarm). Got one wrong? Adjust the rule and test again.
@@ -47,9 +47,9 @@ Create a separate bot only if it needs its own **memory**, a different **permiss
 
 ## Notes
 
-- The cards are an INEMA kit.
+- The cards are an ARCKHÉ kit.
 - We haven't tested them on every GrokBot account and plan: **run the 3 tests on yours before you trust it**.
-- Tools mentioned in the cards (post scheduler, wallet, database) are examples, not requirements. None has any tie to INEMA.
+- Tools mentioned in the cards (post scheduler, wallet, database) are examples, not requirements. None has any tie to ARCKHÉ.
 - Anything that touches money or talks to outside people starts at level N2: **nothing goes out without your OK**.
 
 ## For kit maintainers
@@ -62,4 +62,4 @@ python3 guia/build.py   # generates guia/index.html, guia/en/ and guia/es/
 
 ---
 
-Open and free kit · [INEMA.CLUB](https://inema.club)
+Open and free kit · [ARCKHÉ AI](https://ARCKHÉ AI)
