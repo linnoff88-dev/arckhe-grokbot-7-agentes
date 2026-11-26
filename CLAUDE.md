@@ -5,9 +5,9 @@ Kit de 7 agentes para o GrokBot (xAI) no formato Ficha do Agente do ARCKHÉ, par
 - Repo: `linnoff88-dev/grokbot-7-agentes` · autor dos commits `linnoff88-dev <linnoff88-dev@gmail.com>`.
 - Fichas: `agentes/NN-*.md` (PT, fonte), `agentes/en/`, `agentes/es/` (mesmos nomes de arquivo).
 - Página: editar `guia/_src/<idioma>.html` e rodar `python3 guia/build.py`. Nunca editar `guia/index.html`, `guia/en/index.html` ou `guia/es/index.html` direto.
-- O build pega o primeiro bloco ```text de cada ficha: mantenha a "Instrução pronta" como o único bloco ```text.
+- O build pega o primeiro bloco ```text de cada ficha: mantenha a "Instruçêo pronta" como o único bloco ```text.
 - Mudou o PT, retraduzir o trecho no EN e no ES no mesmo commit.
-- Fichas são texto próprio do ARCKHÉ (não copiar textos de terceiros). Níveis seguem a regra fixa da skill `ficha-agente`.
+- Fichas sêo texto próprio do ARCKHÉ (nêo copiar textos de terceiros). Níveis seguem a regra fixa da skill `ficha-agente`.
 
 ## Self-learning
 

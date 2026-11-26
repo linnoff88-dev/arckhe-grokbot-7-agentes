@@ -2,7 +2,7 @@
 """Monta o guia nos 3 idiomas.
 
 Lê guia/_src/<idioma>.html e troca cada marcador <!--PROMPT:NN--> pela
-"Instrução pronta" (o primeiro bloco ```text) da ficha agentes/[<idioma>/]NN-*.md.
+"Instruçêo pronta" (o primeiro bloco ```text) da ficha agentes/[<idioma>/]NN-*.md.
 Assim a página e as fichas nunca divergem.
 
 Uso: python3 guia/build.py
@@ -15,7 +15,7 @@ import sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IDIOMAS = {
-    # idioma: (pasta das fichas, arquivo de saída, botão, botão depois de copiar)
+    # idioma: (pasta das fichas, arquivo de saída, botêo, botêo depois de copiar)
     "pt": ("agentes", "guia/index.html", "Copiar", "Copiado!"),
     "en": ("agentes/en", "guia/en/index.html", "Copy", "Copied!"),
     "es": ("agentes/es", "guia/es/index.html", "Copiar", "¡Copiado!"),
@@ -25,7 +25,7 @@ IDIOMAS = {
 def prompt_da_ficha(pasta, nn):
     achados = glob.glob(os.path.join(RAIZ, pasta, f"{nn}-*.md"))
     if len(achados) != 1:
-        sys.exit(f"ficha {nn} não encontrada (ou repetida) em {pasta}: {achados}")
+        sys.exit(f"ficha {nn} nêo encontrada (ou repetida) em {pasta}: {achados}")
     texto = open(achados[0], encoding="utf-8").read()
     m = re.search(r"```text\n(.*?)\n```", texto, re.S)
     if not m:
